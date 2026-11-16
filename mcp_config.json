@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "worktable": {
+      "serverUrl": "https://app.worktable.cloud/api/mcp"
+    }
+  }
+}
