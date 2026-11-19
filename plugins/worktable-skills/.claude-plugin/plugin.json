@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "worktable-skills",
   "displayName": "Worktable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "description": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
   "author": {

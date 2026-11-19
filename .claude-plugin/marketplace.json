@@ -6,13 +6,13 @@
     "email": "support@worktable.dev"
   },
   "description": "Official Worktable plugins for Claude Code.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "plugins": [
     {
       "name": "worktable",
       "source": "./",
       "description": "Build shared Docs, live HTML workspaces, structured Records, annotations, and durable agent threads in Worktable.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Reva Labs",
         "email": "support@worktable.dev"
@@ -32,7 +32,7 @@
       "name": "worktable-skills",
       "source": "./plugins/worktable-skills",
       "description": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Reva Labs",
         "email": "support@worktable.dev"

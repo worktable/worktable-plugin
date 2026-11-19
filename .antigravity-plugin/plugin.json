@@ -2,7 +2,7 @@
   "name": "worktable",
   "displayName": "Worktable",
   "description": "Build shared Docs, live HTML workspaces, structured Records, annotations, and durable agent threads in Worktable.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "logo": "assets/logo.png",
   "author": {
     "name": "Reva Labs",

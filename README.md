@@ -70,6 +70,19 @@ agy plugin install https://github.com/worktable/worktable-plugin
 
 Then open `/plugin`, expand Worktable under **Installed**, and choose **Sign in**.
 
+### Copilot CLI and VS Code
+
+```text
+copilot plugin marketplace add worktable/worktable-plugin
+copilot plugin install worktable@worktable
+```
+
+Then run `/mcp` in Copilot CLI and sign in to `worktable`. VS Code loads the
+plugins Copilot CLI installs. In VS Code itself, run
+**Chat: Install Plugin from Source** and enter
+`https://github.com/worktable/worktable-plugin`, then start `worktable` from
+the MCP servers list and sign in.
+
 ### Gemini CLI
 
 ```text
@@ -92,8 +105,19 @@ then choose **Save** and **Connect**.
 
 The Gemini app takes one skill folder and never updates it. Download
 [worktable.tar](https://docs.worktable.dev/downloads/skills/gemini/worktable.tar),
-unpack it, and upload the `worktable` folder. It holds the Library check and
-names each workflow guide.
+unpack it, then open **Customize**, then **Skills**, and upload the `worktable`
+folder. It holds the Library check and names each workflow guide.
+
+### Pi
+
+Pi installs this repository as a package of its skills. Add Worktable's
+server and sign in, then install it:
+
+```text
+pi mcp add worktable --url https://app.worktable.cloud/api/mcp
+pi mcp login worktable
+pi install git:github.com/worktable/worktable-plugin
+```
 
 ### Kiro
 
@@ -147,6 +171,13 @@ claude plugin update worktable@worktable
 claude plugin uninstall worktable@worktable
 ```
 
+In Pi, the server and the package are separate, so remove both:
+
+```text
+pi remove git:github.com/worktable/worktable-plugin
+pi mcp remove worktable
+```
+
 Other hosts manage packages through their plugin interface. Removing the plugin
 removes its connection and bundled skills. It does not delete workspace content
 or close your account. Revoke access in Worktable separately.
@@ -163,4 +194,5 @@ changes in [worktable-dev](https://github.com/worktable/worktable-dev/issues).
 
 [`plugins/worktable-skills`](plugins/worktable-skills) holds Worktable Skills, the
 same skills without the Cloud connection, which Worktable's connect command
-installs in Claude Code and Codex for a Worktable on a computer or server.
+installs in Claude Code, Codex, Copilot CLI, VS Code and Antigravity for a
+Worktable on a computer or server.
