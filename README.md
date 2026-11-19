@@ -36,10 +36,11 @@ self-hosted workspace, follow
 
 On a Pro, Max, Team or Enterprise plan, open **Plugins**, choose **Add**, then
 **Add marketplace**, and enter `worktable/worktable-plugin`. Add Worktable,
-then open the plugin's **Connectors** tab, connect Worktable and sign in. Claude
-updates it from this repository: choose **Check for updates**, or turn on
-**Sync automatically** once the Claude GitHub App has access. Skills need
-**Code execution** on in Claude's settings.
+then open the plugin's **Connectors** tab, connect Worktable and sign in. Skills
+need **Code execution** on in Claude's settings.
+
+Claude keeps the version you added until you update it. See
+[Update or remove](#update-or-remove).
 
 Uploading the plugin as a file works too, but an uploaded copy never updates.
 
@@ -133,6 +134,12 @@ provider processes prompts and tool traffic under its own terms.
 
 ## Update or remove
 
+In Claude on the web, on desktop and in Cowork, open **Plugins**, choose **Add
+plugin**, then **Manage marketplaces**. Open the menu beside
+`worktable/worktable-plugin` and choose **Check for updates**. The plugin's own
+page has no update button. **Sync automatically** in the same menu updates it
+without asking, once the Claude GitHub App has access to the repository.
+
 In Claude Code:
 
 ```text
@@ -153,3 +160,7 @@ This package uses the included [MIT License](LICENSE).
 This repository is generated from [`plugins/worktable`](https://github.com/worktable/worktable-dev/tree/main/plugins/worktable)
 in worktable-dev and updated on every change there. Report issues and propose
 changes in [worktable-dev](https://github.com/worktable/worktable-dev/issues).
+
+[`plugins/worktable-skills`](plugins/worktable-skills) holds Worktable Skills, the
+same skills without the Cloud connection, which Worktable's connect command
+installs in Claude Code and Codex for a Worktable on a computer or server.

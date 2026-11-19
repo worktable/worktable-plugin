@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "worktable-skills",
+  "displayName": "Worktable",
+  "version": "0.2.0",
+  "license": "MIT",
+  "description": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
+  "author": {
+    "name": "Reva Labs",
+    "email": "support@worktable.dev"
+  },
+  "homepage": "https://docs.worktable.dev/start/connect-your-agent",
+  "repository": "https://github.com/worktable/worktable-plugin",
+  "keywords": [
+    "worktable",
+    "workspace",
+    "records",
+    "company knowledge",
+    "agent collaboration"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://docs.worktable.dev/start/connect-your-agent",
+  "supportUrl": "https://www.worktable.cloud/support",
+  "privacyPolicyUrl": "https://www.worktable.cloud/privacy",
+  "termsOfServiceUrl": "https://www.worktable.cloud/terms"
+}

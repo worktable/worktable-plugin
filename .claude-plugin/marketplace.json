@@ -27,6 +27,26 @@
         "collaboration"
       ],
       "strict": true
+    },
+    {
+      "name": "worktable-skills",
+      "source": "./plugins/worktable-skills",
+      "description": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Reva Labs",
+        "email": "support@worktable.dev"
+      },
+      "homepage": "https://docs.worktable.dev/start/connect-your-agent",
+      "repository": "https://github.com/worktable/worktable-plugin",
+      "license": "MIT",
+      "category": "Productivity",
+      "tags": [
+        "workspace",
+        "knowledge",
+        "collaboration"
+      ],
+      "strict": true
     }
   ]
 }

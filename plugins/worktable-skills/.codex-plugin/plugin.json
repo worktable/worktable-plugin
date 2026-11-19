@@ -1,0 +1,35 @@
+{
+  "name": "worktable-skills",
+  "version": "0.2.0",
+  "description": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
+  "author": {
+    "name": "Reva Labs",
+    "email": "support@worktable.dev",
+    "url": "https://www.worktable.cloud"
+  },
+  "interface": {
+    "displayName": "Worktable",
+    "shortDescription": "Skills for your Worktable",
+    "longDescription": "Worktable's skills for Docs, HTML Docs, Records, annotations and threads, for an agent connected to Worktable with its connect command.",
+    "developerName": "Reva Labs",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.worktable.cloud",
+    "supportURL": "https://www.worktable.cloud/support",
+    "privacyPolicyURL": "https://www.worktable.cloud/privacy",
+    "termsOfServiceURL": "https://www.worktable.cloud/terms",
+    "defaultPrompt": [
+      "Turn this into a polished interactive Worktable HTML Doc.",
+      "Organize this research as reusable Worktable records.",
+      "Check my Worktable messages and respond."
+    ],
+    "brandColor": "#0058E8",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}
